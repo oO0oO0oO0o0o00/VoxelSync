@@ -56,11 +56,11 @@ Which means **you won't be able to use it**, generally speaking.
 ```
 
 ### How to run:
-1. Clone from IDEA;  
+1. Clone & open in IDEA;  
 2. Build client side AND server side jar;  
 3. Edit client side AND server side config.txt using Notepad++ with encoding UTF-8 No BOM header;
 4. Distribute client side jar AND config to your friends that plays with you. The files shall be placed along with Minecraft launcher and `.minecraft` folder in the root directory of your Minecraft;  
 5. Upload server side jar AND config to your server, if you plays over LAN then use your PC or router, otherwise you need a public IP address, maybe you want a VPS;  
 6. Create the directory of `repo`. `Repo` is defined in server side config.txt. Make sure the program have write access to it (on Linux);  
-7. Run server side jar in a `screen` (remote Linux incl. router) or `Powershell` (Pc or laptop) or `terminal` (Linux desktop);  
-8. Quit server before synchronization.
+7. Run server side jar in a `screen` via SSH (Linux server incl. router) or `Powershell` (pc or laptop) or `terminal` (Linux desktop);  
+8. Quit server from Minecraft before synchronization.
