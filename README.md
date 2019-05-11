@@ -64,3 +64,5 @@ Which means **you won't be able to use it**, generally speaking.
 6. Create the directory of `repo`. `Repo` is defined in server side config.txt. Make sure the program have write access to it (on Linux);  
 7. Run server side jar in a `screen` via SSH (Linux server incl. router) or `Powershell` (pc or laptop) or `terminal` (Linux desktop);  
 8. Quit server from Minecraft before synchronization.
+
+test
